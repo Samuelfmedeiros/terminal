@@ -1,47 +1,35 @@
-# Portifolio Terminal 🖥️
+# 💻 Portifolio Terminal
 
-**Terminal interativo** para portfólio — navegue pelo universo de Samuel Medeiros usando comandos de shell.
+<p align="center">
+  <img src="https://img.shields.io/badge/React-18-61DAFB?logo=react&style=flat-square">
+  <img src="https://img.shields.io/badge/license-MIT-22c55e?style=flat-square">
+  <a href="https://samuelmedeiros.vercel.app/#games"><img src="https://img.shields.io/badge/Jogue_no_Portfólio-06b6d4?style=flat-square"></a>
+</p>
 
-## 🎮 Como usar
+Terminal interativo para portfólio — navegue pelo universo de Samuel Medeiros usando comandos de shell.
 
-Digite `help` para ver todos os comandos disponíveis.
-
-### Comandos principais
-
+## Comandos
 | Comando | Descrição |
 |---------|-----------|
-| `sobre` | Informações sobre Samuel |
+| `sobre` | Sobre Samuel |
 | `projetos` | Lista de projetos |
-| `habilidades` / `skills` | Habilidades técnicas |
+| `habilidades` | Habilidades técnicas |
 | `contato` | Informações de contato |
-| `stack` | Tech stack do portfólio |
+| `stack` | Tech stack |
 | `neofetch` | System info estilizado |
-| `quote` | Citação inspiradora |
-| `holofote` | Coloca Samuel no holofote |
 
-### 🥚 Easter eggs
+### Easter eggs
+`fix path_variables` · `matrix` · `sudo rm -rf /` (🙃)
 
-- `fix path_variables` — Repara variáveis do Windows
-- `run routine:lights_out` — Modo Noturno Máximo
-- `matrix` — Efeito Matrix
-- `sudo rm -rf /` — ⚠️ Não faça isso
+## Stack
+- React 18 (CDN) · Babel Standalone · CSS puro
 
-### 🌐 Navegação
+## Executar
+```bash
+git clone git@github.com:Samuelfmedeiros/terminal.git
+cd terminal
+open index.html
+```
 
-- `↑` / `↓` — Navegar no histórico de comandos
-- `Tab` — Autocompletar comandos
-- `Enter` — Executar comando
-
-## 🚀 Deploy
-
-O terminal é servido como parte do [Portifolio Samuel](https://samuelmedeiros.vercel.app) via iframe, mas também pode ser executado standalone abrindo `index.html` no navegador.
-
-## 🛠️ Stack
-
-- React 18 (via CDN — UMD + Babel standalone)
-- HTML / CSS puro
-- Zero dependências de build
-
-## 📄 Licença
-
+## Licença
 MIT
